@@ -87,7 +87,7 @@ function playPattern() {
     if (i === gamePattern.length) {
         clearInterval(intervalId);
       }
-    }, 500);
+    }, 1000);
 }
 
 /*
